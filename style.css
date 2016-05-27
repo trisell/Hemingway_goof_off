@@ -1,0 +1,93 @@
+#container {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+}
+#sidebox{
+    width: 29%;
+    height: 100vh;
+    float: left;
+    position:fixed;
+}
+#sidebox:before {
+    content: "";
+    /*background-image: url('http://www.trbimg.com/img-55956868/turbine/la-me-ernest-hemingway-19610703');*/
+    background-image: url(https://s-media-cache-ak0.pinimg.com/236x/0c/81/cb/0c81cbcb6714c5281fbb8aca158be6cb.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: 50vw, 90vh;
+    background-position: center;
+}
+#ontop-sidebox {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    color: black;
+    z-index: 1;
+}
+#roundhead{
+    background-image: url(http://www.trbimg.com/img-55956868/turbine/la-me-ernest-hemingway-19610703);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border-radius:25px;
+    width:300px;
+    height:200px;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    z-index: 2;
+}
+#wiki {
+  background-image: url('http://icons.iconarchive.com/icons/martz90/circle/512/wikipedia-icon.png');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  height: 100px;
+  width:100px;
+  position: absolute;
+  top: 325px;
+  left: 25%;
+  z-index: 3;
+}
+#website {
+  background-image: url('http://static.tumblr.com/i3wvskx/yRflsg5c0/home-icon.png');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  height: 100px;
+  width:100px;
+  position: absolute;
+  top: 325px;
+  left: 55%;
+  z-index: 3;
+}
+
+#box {
+    margin-left: 30%;
+    height: 100%;
+    background: gray;
+    background: gray; /* For browsers that do not support gradients */
+    text-align: center;
+    background: -webkit-linear-gradient(left, #F8F8F8, #888888); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F8F8F8, #888888); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F8F8F8, #888888); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #F8F8F8, #888888);
+}
